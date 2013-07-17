@@ -1,0 +1,32 @@
+.old_price {
+  margin-left: 10px;
+  font-size: 12px;
+}
+.table_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+#price,
+#temp_price {
+  width: 243px;
+}
+.image_upload {
+  display: none !important;
+}
+.product_stock_label {
+  margin-left: 0 !important;
+  font-size: 12px;
+}
+.product_stock_label.size {
+  width: 92px;
+}
+.product_stock_label.color {
+  width: 156px;
+}
+.product_stock {
+  margin-bottom: 2px;
+}

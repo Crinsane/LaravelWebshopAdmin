@@ -1,0 +1,25 @@
+{
+    "name": "webshop/admin",
+    "description": "",
+    "authors": [
+        {
+            "name": "Rob Gloudemans",
+            "email": "Rob_Gloudemans@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "intervention/image": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Webshop\\Admin": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
